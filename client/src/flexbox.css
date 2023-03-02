@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BhuTuka+Expanded+One&family=Lato:wght@700&family=Merriweather:wght@300&family=Praise&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    /* border: 2px solid black; */
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    min-width: 800px;
+    min-height: 400px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    gap: 5px;
+}
+
+.box{
+    height: 100px;
+    min-width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 300px;
+    flex-grow: 1;
+    /* flex-wrap: wrap; */
+}
+
+.box:nth-child(2){
+   flex-grow: 2;
+}
+
+/* 
+font-family: 'Bebas Neue', cursive;
+font-family: 'BhuTuka Expanded One', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Praise', cursive;
+font-family: 'Roboto', sans-serif;
+*/

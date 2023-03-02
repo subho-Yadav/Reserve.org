@@ -1,0 +1,28 @@
+.hotel-card-container{
+    /* border: 5px solid red; */
+    min-height: 25rem;
+    max-height: 25rem;
+}
+
+.cbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.himg{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 150px;
+}
+
+
+.rating-show-more{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}

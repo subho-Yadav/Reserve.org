@@ -1,0 +1,41 @@
+.navbar{
+    height: 50px;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 50px;
+    color: #fff;
+    font-family: monospace;
+}
+
+.nav-btn{
+    margin-left: 20px;
+    padding: 5px 10px;
+    color: #003580;
+    cursor: pointer;
+    
+}
+
+.loggedInMode{
+    display: none;
+}
+
+.admin-logout{
+    padding: 5px 5px;
+    border: 1px solid #fff;
+    background:transparent;
+    color: white;
+    font-weight: bold;
+}

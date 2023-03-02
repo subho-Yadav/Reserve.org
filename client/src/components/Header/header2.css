@@ -1,0 +1,103 @@
+.header{
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+    /* border: 5px solid red; */
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    padding: 20px 0 75px 0px;
+    /* border: 5px solid yellow; */
+    
+    color: #fff;
+    
+    
+}
+
+.listMode{
+        padding: 20px 0 0px 0px;
+
+}
+
+.headerList{
+    width: 1024px;
+    display: flex;
+    color: #fff;
+    gap: 25px;
+    margin-bottom: 30px;
+    /* border: 2px solid red; */
+}
+
+.headerItem{
+    display: flex;
+    align-items: center ;
+    gap: 20px;
+    font-family: monospace;
+   
+}
+
+.headerItem.active{
+    padding: 7px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+
+.headerTitle{
+    margin: 25px 0px;
+}
+
+.headingDescription{
+    margin: 20px 0px;
+}
+
+.headerBtn{
+    padding: 10px 10px;
+    border: 0;
+    font-weight: 100px;
+    background-color:  #0071c2;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.headingDescription{
+    line-height: 25px;
+}
+
+
+
+/*optional css for search bar in header component*/
+
+/* .headerSearch{
+    display: flex;
+    height: 35px;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1024px;
+    border: 3px solid #febb02;
+    background-color: #fff;
+    padding: 25px 0px;
+    border-radius: 10px;
+    transform: translateY(50%);
+} */
+
+
+/* .headerSearchItem{
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+
+} */
+
+/* .headerSearchInput{
+    border: 0;
+    outline: 0;
+
+} */
+
+/*optional css for search bar in header component*/

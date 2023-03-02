@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BhuTuka+Expanded+One&family=Lato:wght@700&family=Merriweather:wght@300&family=Praise&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+.search-box{
+    background-color: #003580;
+}
+
+
+.hotels-page{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* background-color:red; */
+    position: relative;
+    
+}
+.navbar-container{
+    position: sticky;
+    top: 0px;
+    z-index: 1111;
+}
+
+.search-box{
+    position: sticky;
+    top: 50px;
+    z-index: 111;
+}
+.hotels-body{
+    display: flex;
+    gap: 50px;
+    position: sticky;
+    top: 150px;
+    /* border: 5px solid green; */
+    /* background-color: red; */
+   
+    
+}
+
+
+.sidebar{
+    position: sticky;
+    top: 50px;
+    left: 20px;
+    /* border: 2px solid red; */
+    flex:1
+}
+
+.results{
+    /* border: 2px solid black; */
+    margin-right: 20px;
+    flex: 4;
+    position:sticky
+}

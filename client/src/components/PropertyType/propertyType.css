@@ -1,0 +1,28 @@
+.propertyType{
+    width: 100%;
+    max-width: 1024px;
+   
+}
+
+.propertyTypesList{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 5px;
+     width: 100%; 
+    /* border: 2px solid black;  */
+}
+
+.pti{
+    width: 100%;
+    border-radius: 10px;
+    /* height: 100; */
+    
+}
+
+.propertyTypeItem{
+    /* border: 2px solid black; */
+    width: 100%;
+    
+    overflow: hidden;
+}

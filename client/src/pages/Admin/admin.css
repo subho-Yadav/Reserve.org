@@ -1,0 +1,28 @@
+.admin-portal{
+
+    position: sticky;
+   
+}
+
+.admin-body{
+display: flex;
+border: 2px solid red;
+position: relative;
+}
+.admin-sidebar{
+    position: relative;
+    height: calc(100vh-50px);
+}
+
+.sidebar{
+    
+}
+
+/* 
+font-family: 'Comic Neue', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+*/
+

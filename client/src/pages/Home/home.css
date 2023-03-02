@@ -1,0 +1,12 @@
+.homeContainer{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+
+

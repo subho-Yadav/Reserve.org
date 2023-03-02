@@ -1,0 +1,15 @@
+.admin-sidebar{
+    flex: 1;
+    border: 2px solid green;
+    background-color: #fff;
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+    padding: 10px 5px;
+}
+
+.category{
+    font-size: 20px;
+    font-weight: 200;
+    border: 5px solid black;
+}

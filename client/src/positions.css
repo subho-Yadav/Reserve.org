@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BhuTuka+Expanded+One&family=Lato:wght@700&family=Merriweather:wght@300&family=Praise&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 200px 200px;
+    height: 200vh;
+}
+
+.outer-container{
+    border: 2px dashed black;
+    height: 600px;
+    width: 400px;
+}
+
+.box{
+    color: #fff;
+    /* border: 2px solid forestgreen; */
+    height: 100px;
+    width: 100px;
+}
+
+.inner-container{
+    border: 1px solid red;
+    margin: 20px;
+    padding: 50px;
+}
